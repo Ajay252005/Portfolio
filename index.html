@@ -4,14 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ajay Parmar | Developer</title>
+
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Navbar -->
+  <div class="bg"></div>
+
   <nav>
-    <h2>Ajay.</h2>
+    <h2>Ajay<span>.</span></h2>
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
@@ -20,57 +22,49 @@
     </ul>
   </nav>
 
-  <!-- Hero -->
   <section class="hero">
-    <h1>Hi, I'm <span>Ajay Parmar</span></h1>
-    <p>B.Tech CSE Student | Aspiring Software Developer</p>
-    <div class="buttons">
-      <a href="#projects">View Work</a>
-      <a href="#contact" class="outline">Hire Me</a>
-    </div>
+    <h1>Building <span>Modern</span><br>Web Experiences</h1>
+    <p>B.Tech CSE Student • Freelancer-Ready Developer</p>
+    <a href="#projects" class="cta">View My Work</a>
   </section>
 
-  <!-- About -->
-  <section id="about">
+  <section id="about" class="glass">
     <h2>About Me</h2>
     <p>
-      I’m a Computer Science student passionate about building clean,
-      scalable and user-friendly web applications.
-      Currently focusing on real-world projects and freelance-ready skills.
+      I’m Ajay Parmar, a Computer Science student who loves crafting
+      visually clean, high-performance websites.
+      My focus is on modern UI, smooth interactions, and real-world projects.
     </p>
   </section>
 
-  <!-- Skills -->
   <section id="skills">
     <h2>Skills</h2>
-    <div class="cards">
-      <div class="card">HTML • CSS • JavaScript</div>
-      <div class="card">React (Learning)</div>
-      <div class="card">Python / Java</div>
-      <div class="card">Git • GitHub • VS Code</div>
+    <div class="skills-grid">
+      <div class="skill">HTML / CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React (Learning)</div>
+      <div class="skill">Python / Java</div>
     </div>
   </section>
 
-  <!-- Projects -->
   <section id="projects">
     <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project">
+    <div class="projects">
+      <div class="project-card">
         <h3>Portfolio Website</h3>
-        <p>Personal portfolio with modern UI.</p>
+        <p>Dark themed animated portfolio.</p>
       </div>
-      <div class="project">
-        <h3>Mini Web App</h3>
-        <p>JavaScript based interactive app.</p>
+      <div class="project-card">
+        <h3>JS Web App</h3>
+        <p>Interactive frontend project.</p>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact Me</h2>
+  <section id="contact" class="glass">
+    <h2>Contact</h2>
     <p>Email: ajayparmar@example.com</p>
-    <p>GitHub | LinkedIn</p>
+    <p>GitHub • LinkedIn</p>
   </section>
 
   <script src="script.js"></script>
